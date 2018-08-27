@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;netty-all-4.1.23.Final.jar&apos; to &apos;libs&apos;&#x0D;&#x0A;- Original project: &apos;NettyReconClient&apos;&#x0D;&#x0A;- Destination element: &apos;libs&apos;&#x0D;&#x0A;- Original element: &apos;netty-all-4.1.23.Final.jar&apos;" description="Copy file" element1="libs/netty-all-4.1.23.Final.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1535080805133" target="/NettyReconServer/libs" units="0" version="1.0"/>
+</session>

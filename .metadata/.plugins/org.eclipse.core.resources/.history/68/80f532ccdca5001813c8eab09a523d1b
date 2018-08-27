@@ -1,0 +1,22 @@
+package com.org;
+
+import com.org.handler.SubReqServerHandler;
+import com.org.marshalling.MarshallingCodeCFactory;
+
+public class SubReqServer {
+
+	
+
+    public static void main(String[] args) throws Exception {
+        int port = 8080;
+        if (args != null && args.length > 0) {
+            try {
+                port = Integer.valueOf(args[0]);
+            } catch (NumberFormatException e) {
+                // 采用默认值
+            }
+        }
+        new SubReqServer().bind(port);
+    }
+
+}

@@ -1,0 +1,7 @@
+package com.org.handler;
+
+import io.netty.channel.ChannelInboundHandlerAdapter;
+
+public class IOClientHandler extends ChannelInboundHandlerAdapter {
+
+}

@@ -1,0 +1,7 @@
+package com.org.handler;
+
+import io.netty.channel.ChannelHandlerAdapter;
+
+public class SubReqClientHandlers extends ChannelHandlerAdapter {
+
+}

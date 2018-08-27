@@ -1,0 +1,5 @@
+package com.org.pack;
+
+public class SubscribeResp {
+
+}

@@ -1,0 +1,5 @@
+package com.org.marshall;
+
+public class MarshallingCodeCFactory {
+
+}

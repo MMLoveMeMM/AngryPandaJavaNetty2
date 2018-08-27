@@ -1,0 +1,29 @@
+package com.org.handler;
+
+import com.org.pack.SubscribeReq;
+
+import io.netty.channel.ChannelHandlerAdapter;
+import io.netty.channel.ChannelHandlerContext;
+
+public class SubReqClientHandler extends ChannelHandlerAdapter{
+	
+	public SubReqClientHandler() {
+    }
+
+    private SubscribeReq subReq(int i) {
+        SubscribeReq req = new SubscribeReq();
+        req.setAddress("南京市江宁区方山国家地质公园");
+        req.setPhoneNumber("138xxxxxxxxx");
+        req.setProductName("Netty For Marshalling");
+        req.setSubReqID(i);
+        req.setUserName("Lilinfeng");
+        return req;
+    }
+
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+        cause.printStackTrace();
+        ctx.close();
+    }
+}
